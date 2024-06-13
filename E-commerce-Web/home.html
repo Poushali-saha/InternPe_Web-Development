@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyFantasy || E-Commerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+   
+<body>
+    <header>
+        
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/img1.png" width="155px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="assets/img3.png" width="35px" height="35px">
+            <img src="assets/img25.png" class="menu-icon" onclick="menutoggle()">
+        
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>ToyFantasy : Where Every Toy <br>Sparks a Smile!</h1>
+            <p>Welcome to ToyFantasy, your ultimate destination for endless <br>fun and boundless imagination! Dive into a world of wonder  <br>where play knows no bounds. From timeless classics to the <br> latest innovations, our curated collection of toys brings joy to  <br>children of all ages. Explore, discover, and embark on count- <br>less adventures with every visit. Let your imagination soar as  <br> you delve into our enchanting realm of play. Find the perfect  <br>toy to ignite laughter, foster creativity, and create cherished  <br>memories that last a lifetime. Join us and unlock the magic  <br>of play today!</p>
+            <a onclick="document.location='http://127.0.0.1:3000/products.html'" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="assets/img2.png" alt="">
+        </div>
+    </div>
+    
+</header>
+
+<!---------Featured Categories------------>
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="assets/img4.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="assets/img5.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="assets/img6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!---------Featured Products------------>
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img7.webp" alt="">
+                <h4>Pink Teddy Bear</h4>
+                <p>&#8377;1500</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img8.jpg" alt="">
+                <h4>Unicorn Toys Combo</h4>
+                <p>&#8377;500</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img9.webp" alt="">
+                <h4>Purple Teddy Bear</h4>
+                <p>&#8377;1000</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img10.jpeg" alt="">
+                <h4>Remote Control Car</h4>
+                <p>&#8377;700</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img13.jpg" alt="">
+                <h4>Doll House</h4>
+                <p>&#8377;2000</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img11.jpg" alt="">
+                <h4>Remote Control Plane</h4>
+                <p>&#8377;1900</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img15.jpg" alt="">
+                <h4>Soft Toy Basket</h4>
+                <p>&#8377;1800</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img14.jpg" alt="">
+                <h4>Penguin Soft Toy</h4>
+                <p>&#8377;500</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img16.webp" alt="">
+                <h4>Pink Teddy Bear</h4>
+                <p>&#8377;800</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img17.jpg" alt="">
+                <h4>Toddler Toys Car Set</h4>
+                <p>&#8377;400</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img19.webp" alt="">
+                <h4>Barbie Fashion Designer Set</h4>
+                <p>&#8377;1700</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img18.jpg" alt="">
+                <h4>Cooking Toys Set</h4>
+                <p>&#8377;900</p>
+            </div>
+        </div>
+    </div>
+    <!-----offer----->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="assets/img20.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Offer at ToyFantasy</p>
+                    <h1>A Triad of Teddy Bears </h1>
+                    <p>&#8377;600 only </p>
+                   
+                    <br>
+                    <p>Meet the trio of adorable teddy bears, each with its <br> own unique charm and cuddle-factor. These lovable <br> companions are not just here for hugs; they're on a <br>mission to find new homes at the lowest prices ever!<br> With their soft fur and endearing smiles, they're sure <br>to bring joy to anyone, all at an unbeatable bargain.<br> Don't miss out on this opportunity to bring home your<br> new best friends for less!</p>
+                    <a class="btn">Buy Now &#8594</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------Tetimonial--------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>ToyFantasy is a treasure trove for kids and parents alike! Their diverse selection of toys, combined with fast shipping and excellent customer service, makes them our family's favorite go-to for playtime essentials.</p>
+                    <small>&#9733;&#9733;&#9733;&#9733;&#9733;</small>
+                    <img src="assets/img21.jpg" alt="">
+                    <h3>Harry Adams</h3>
+                </div>
+                <div class="col-3">
+                    <p>ToyFantasy brings smiles to our faces every time we visit! Their carefully curated collection of toys sparks creativity and imagination in our little ones. Plus, their hassle-free ordering process and prompt delivery make shopping a breeze.</p>
+                    <small>&#9733;&#9733;&#9733;&#9733;&#9734;</small>
+                    <img src="assets/img23.jpg" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <p>ToyFantasy is a game-changer for busy parents! Their user-friendly website makes finding the perfect toy a snap, and their commitment to quality ensures our kids have hours of safe, enjoyable play. We wouldn't shop anywhere else!</p>
+                    <small>&#9733;&#9733;&#9733;&#9733;&#9733;</small>
+                    <img src="assets/img22.webp" alt="">
+                    <h3>Oliver Smith</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------footer------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="assets/img24.png" alt="">
+                    </div>
+                   
+                
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/img1.png" alt="">
+                    <p>Where Every Toy Sparks a Smile!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <br>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <br>
+                    <ul>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <hr>
+                <br>
+                <hr>
+                <p class="copyright">Copyright Poushali Saha || ToyFantasy</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!----js for toggle menu ---->
+    <script>
+        var menuitems= document.getElementById("menuitems");
+        menuitems.style.maxHeight= "0px"
+        function menutoggle(){
+            if ( menuitems.style.maxHeight=="0px")
+            {
+                 menuitems.style.maxHeight="200px"
+
+            }
+        else{
+            menuitems.style.maxHeight="0px"
+        }
+        }
+    </script>
+   
+</body>
+</html>
+
+

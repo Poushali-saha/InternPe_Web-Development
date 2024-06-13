@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products || ToyFantasy </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+   
+<body>
+    <header>
+        
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/img1.png" width="155px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="assets/img3.png" width="35px" height="35px">
+            <img src="assets/img25.png" class="menu-icon" onclick="menutoggle()">
+        
+        </div>
+    </div>
+   
+    
+</header>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option >Default Sorting</option>
+                <option >Sort by Price</option>
+                <option >Sort by Popularity</option>
+                <option >Sort by Rating</option>
+                <option >Sort by Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img7.webp" alt="">
+                <h4>Pink Teddy Bear</h4>
+                <p>&#8377;1500</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img8.jpg" alt="">
+                <h4>Unicorn Toys Combo</h4>
+                <p>&#8377;500</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img9.webp" alt="">
+                <h4>Purple Teddy Bear</h4>
+                <p>&#8377;1000</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img10.jpeg" alt="">
+                <h4>Remote Control Car</h4>
+                <p>&#8377;700</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img13.jpg" alt="">
+                <h4>Doll House</h4>
+                <p>&#8377;2000</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img11.jpg" alt="">
+                <h4>Remote Control Plane</h4>
+                <p>&#8377;1900</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img15.jpg" alt="">
+                <h4>Soft Toy Basket</h4>
+                <p>&#8377;1800</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img14.jpg" alt="">
+                <h4>Penguin Soft Toy</h4>
+                <p>&#8377;500</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img16.webp" alt="">
+                <h4>Pink Teddy Bear</h4>
+                <p>&#8377;800</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img17.jpg" alt="">
+                <h4>Toddler Toys Car Set</h4>
+                <p>&#8377;400</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img19.webp" alt="">
+                <h4>Barbie Fashion Designer Set</h4>
+                <p>&#8377;1700</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img18.jpg" alt="">
+                <h4>Cooking Toys Set</h4>
+                <p>&#8377;900</p>
+            </div>
+        </div>
+        <div class="pg-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594</span>
+        </div>
+       
+    </div>
+    
+
+  
+            
+    <!------footer------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="assets/img24.png" alt="">
+                    </div>
+                   
+                
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/img1.png" alt="">
+                    <p>Where Every Toy Sparks a Smile!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <br>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <br>
+                    <ul>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <hr>
+                <br>
+                <hr>
+                <p class="copyright">Copyright Poushali Saha || ToyFantasy</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!----js for toggle menu ---->
+    <script>
+        var menuitems= document.getElementById("menuitems");
+        menuitems.style.maxHeight= "0px"
+        function menutoggle(){
+            if ( menuitems.style.maxHeight=="0px")
+            {
+                 menuitems.style.maxHeight="200px"
+
+            }
+        else{
+            menuitems.style.maxHeight="0px"
+        }
+        }
+    </script>
+   
+</body>
+</html>
+
+
